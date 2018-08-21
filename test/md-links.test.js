@@ -1,6 +1,13 @@
-// import { options } from './md-links'
-const options = require('./md-links')
+const mdLinks = require('./md-links')
 
 test('Debería devolver verdadero para validar el link', () => {
-  expect(options.validate(1)).toBeTruthy()
+  expect(mdLinks.mdLinks(1)).toEqual({
+    validate: true
+  })
+})
+
+test('options debería ser objeto', () => {
+  expect(mdLinks.mdLinks()).toEqual({
+    validate: true
+  })
 })

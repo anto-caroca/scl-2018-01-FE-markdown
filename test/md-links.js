@@ -1,6 +1,9 @@
-
-const options = {
-  validate: () => true
+const mdLinks = {
+  
+  path: () => 'Escritorio/proyectos',
+  mdLinks: () => {
+  const options = {validate : true}
+  return options
 }
-
-module.exports = options
+}
+module.exports = mdLinks
