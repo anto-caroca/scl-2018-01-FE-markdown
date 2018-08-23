@@ -147,12 +147,6 @@ mdLinks("./some/example.md", { validate: true })
   })
   .catch(console.error);
 
-mdLinks("./some/example.md", { stats: true })
-  .then(links => {
-    // => [{ href, text, file, total, unique, domains }]
-  })
-  .catch(console.error);
-
 /*
  * HACKER EDITION
  */
