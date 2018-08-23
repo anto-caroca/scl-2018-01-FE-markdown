@@ -1,9 +1,8 @@
 const mdLinks = {
-  
-  path: () => 'Escritorio/proyectos',
+  path: () => './some/example.md',
   mdLinks: () => {
-  const options = {validate : true}
-  return options
-}
+    const options = {validate: true}
+    return options
+  }
 }
 module.exports = mdLinks
