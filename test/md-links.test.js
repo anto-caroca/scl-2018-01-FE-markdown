@@ -12,6 +12,6 @@ test('Debería devolver verdadero para validar el link', () => {
 
 test('options debería ser objeto', () => {
   expect(mdLinks.mdLinks()).toEqual({
-    validate: true
+    validate: true +1
   })
 })
