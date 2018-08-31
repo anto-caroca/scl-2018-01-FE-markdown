@@ -18,7 +18,7 @@
   "author": "Antonella Caroca",
   "license": "ISC",
   "bin": {
-    "fileLinks": "src/js/cli.js"
+    "fileLinks": "src/js/index.js"
   },
   "bugs": {
     "url": "https://github.com/anto-caroca/scl-2018-01-FE-markdown/issues"
@@ -39,5 +39,8 @@
     "setupFiles": [
       "./setupJest.js"
     ]
+  },
+  "dependencies": {
+    "marked": "^0.5.0"
   }
 }
