@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
-const mdLinks = require('./lib/mdlinks').mdLinks
+const mdLinks = require('./mdLinks.js').mdLinks
+const linkExtractor = require('./linkExtractor')
 
 if (require.main === module) {
   let options = {}

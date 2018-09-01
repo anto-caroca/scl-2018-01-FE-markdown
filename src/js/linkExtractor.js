@@ -1,4 +1,7 @@
 const Marked = require('marked')
+const fetch = require ('node-fetch')
+const index = require('./index')
+const mdLinks = require('./mdLinks')
 
 // Función necesaria para extraer los links usando marked
 // (tomada desde biblioteca del mismo nombre y modificada para el ejercicio)
@@ -29,6 +32,13 @@ function markdownLinkExtractor (markdown) {
       href: href,
       text: text,
       title: title
+    })
+    // aqui puse el fetch
+    renderer.fetch(`${href}`)
+    renderer.then((res) => {
+      return res.json()
+    }).then((json) => {
+      console.log(json)
     })
   }
   Marked(markdown, {renderer: renderer})
