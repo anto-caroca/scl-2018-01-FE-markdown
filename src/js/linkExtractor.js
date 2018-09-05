@@ -1,7 +1,7 @@
 const Marked = require('marked')
 const fetch = require ('node-fetch')
-const index = require('./index')
-const mdLinks = require('./mdLinks')
+const index = require('./index').default
+const mdLinks = require('./mdLinksX')
 
 // Función necesaria para extraer los links usando marked
 // (tomada desde biblioteca del mismo nombre y modificada para el ejercicio)

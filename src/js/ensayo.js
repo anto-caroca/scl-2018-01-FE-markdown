@@ -88,7 +88,7 @@ fs.readdir('/usr/local/bin', (err, files) => {
 */
 // using streams in order to read the file's content, piece by piece:
 // this lets you do some processing on the file while it is being read (!)
-var fileStream = fs.createReadStream(`${__dirname}/../../README.md`)
+var fileStream = fs.createReadStream(`${__dirname}`)
 var fileContent = ''
 fileStream.on('data', data => {
   fileContent += data.toString()
