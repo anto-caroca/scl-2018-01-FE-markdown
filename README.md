@@ -1,4 +1,4 @@
-#  Descripción get-those-links 
+#  Descripción Markdown Links 
 
 Esta es  una herramienta que  usa [Node.js](https://nodejs.org/), lee y analiza archivos
 en formato `Markdown` para verificar los links que contienen y determinar cuáles
