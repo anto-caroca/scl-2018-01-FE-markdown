@@ -10,7 +10,7 @@ if (require.main === module) {
   mdLinks(process.argv[2], options).then((links) => {
     links.forEach((link) => {
       if (link.ok) {
-        console.log(link.file, ':', link.line, link.href, 'ok:', link.ok)
+        console.log(link.file, ':', link.line, link.href, 'ok: ', link.ok)
       } else {
         console.log(link.file, ':', link.line)
       }
