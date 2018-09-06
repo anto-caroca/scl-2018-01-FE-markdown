@@ -1,6 +1,6 @@
 {
-  "name": "scl-2018-01-fe-markdown",
-  "version": "1.0.0",
+  "name": "get-those-links",
+  "version": "1.0.1",
   "description": "validación de links markdowns en archivos README.md",
   "main": "index.js",
   "scripts": {
