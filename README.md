@@ -19,7 +19,7 @@ Node.js.
 
 ## Parte obligatoria
 
-Módulo instalable via `npm install <github-user>/md-links`. Este módulo
+Módulo instalable via `npm i get-those-links`. Este módulo (https://www.npmjs.com/package/get-those-links/v/1.0.0)
 incluye tanto un ejecutable (_archivo cli_) que podemos invocar en
 la línea de comando como una interfaz que podemos importar con `require`
 para usarlo programáticamente.
