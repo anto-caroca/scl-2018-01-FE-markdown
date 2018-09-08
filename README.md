@@ -24,6 +24,10 @@ incluye tanto un ejecutable (_archivo cli_) que podemos invocar en
 la línea de comando como una interfaz que podemos importar con `require`
 para usarlo programáticamente.
 
+## PLan de acción
+
+(https://trello.com/b/MjmtaV55/markdown-links)
+
 ### JavaScript API
 
 El módulo puede importarse en otros scripts de Node.js y ofrece la
